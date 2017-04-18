@@ -19,7 +19,10 @@ vows.describe('Division by Zero').addBatch({
             },
             'is not equal to itself': function (topic) {
                 assert.notEqual (topic, topic);
-            }
+            },
+	    'is also infinity!': function(topic) {
+		assert.equal(topic, Infinity);
+	    },
         }
     }
 }).run(); // Run it
