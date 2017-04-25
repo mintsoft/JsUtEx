@@ -1,5 +1,3 @@
-var require('jasmine');
-
 // Create a Test Suite
 describe('Division by Zero', function(){
 	var x = 99 /0;
