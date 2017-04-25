@@ -2,6 +2,6 @@
 describe('Division by Zero', function(){
 	var x = 99 /0;
 	it("returns NaN", function(){
-		expect(x).toBe(NaN);
+		expect(x).toBe(Infinity);
 	});
 });
